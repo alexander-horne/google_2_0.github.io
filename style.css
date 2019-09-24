@@ -1,0 +1,65 @@
+header /* Disposition de l'En-tête de l'accueil Google */
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.element /* Disposition et marge des icônes de l'en-tête */
+{
+  display: inline;
+  padding: 7px 7px;
+  margin-top: 1px;
+}
+header input /* Couleur du bouton "Annonce" */
+{
+  background-color: blue;
+  color: white;
+}
+
+section /* Disposition du "milieu" de l'accueil Google */
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section img /* Marge intérieure du "Logo" Google */
+{
+  padding-top: 100px;
+}
+section input /* Marge intérieure des boutons "Recherche google" et "j'ai de la chance" */
+{
+  padding: 5px 5px;
+}
+.Barrederecherche
+{
+  padding: 10px 15px;
+}
+.Recherche /* Disposition des boutons "Recherche google" et "j'ai de la chance" */
+{
+  display: inline;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+}
+a:visited /* Modification de la couleur après visite des liens */
+{
+  color: black;
+}
+
+/* Block permettant de maintenir le "footer" en bas de la page */
+html, body
+{
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body
+{
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-row;
+	height: 100px;
+  background-color: grey;
+}
